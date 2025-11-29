@@ -23,4 +23,24 @@ aegis_fraud_detection/
 ├── api/ # FastAPI application
 ├── dashboard/ # Streamlit dashboard
 ├── tests/ # Test scripts
+
 └── utils/ # Utility functions
+
+aegis-fraud-detection/
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       └── bug_report.md
+├── data/
+│   └── mock_data_generator.py
+├── models/
+│   └── train_model.py
+├── api/
+│   └── app.py
+├── dashboard/
+│   └── app.py
+├── tests/
+│   └── (test files)
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
