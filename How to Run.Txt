@@ -1,0 +1,15 @@
+1. Step 1: Generate Data and Train Model
+    python data/mock_data_generator.py
+    python models/train_model.py
+
+2. Step 2.Start API (Terminal 1)
+    # Method 1: Using uvicorn directly
+        uvicorn api.app:app --host 0.0.0.0 --port 8000 --reload
+
+    # Method 2: Using the run script (if you created run_api.py)
+        python run_api.py
+
+3. Step 3: Start Dashboard (Terminal 2)
+streamlit run dashboard/app.py
+
+
